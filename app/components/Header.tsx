@@ -23,7 +23,7 @@ export function Header({
   return (
     <header className="header">
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
-        <strong>{shop.name}</strong>
+        <strong>{shop.name} - the best custom shop by menkuichan!</strong>
       </NavLink>
       <HeaderMenu
         menu={menu}
